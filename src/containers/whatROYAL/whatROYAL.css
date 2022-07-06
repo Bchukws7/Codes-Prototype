@@ -1,0 +1,47 @@
+.logistics__WhatROYAL {
+  display: flex;
+  flex-direction: column;
+
+  padding: 4rem;
+  background: var(--color-footer);
+  border-radius: 5px;
+  box-shadow: 0px 8px 17px rgba(94, 94, 94, 0.25);
+  border-radius: 10px;
+}
+
+.logistics__WhatROYAL-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logistics__WhatROYAL-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  max-width: 300px;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+}
+
+.logistics__WhatROYAL-heading p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  max-width: 300px;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+
+  color: #414141;
+}
+
+.logistics__WhatROYAL-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
